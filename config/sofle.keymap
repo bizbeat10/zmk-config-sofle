@@ -159,13 +159,13 @@
             display-name = "Qwery";
         };
 
-        Navi {
+        bluetooth {
             bindings = <
-&trans  &trans        &trans        &trans            &trans          &trans               &trans  &trans                 &trans          &trans          &trans           &trans  &trans
-&trans  &trans        &trans        &kp HOME          &kp PAGE_UP     &kp C_VOLUME_UP      &trans  &kp C_BRIGHTNESS_INC   &trans          &kp UP_ARROW    &trans           &trans  &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN    &trans  &kp C_BRIGHTNESS_DEC   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans        &trans        &kp END           &kp PAGE_DOWN   &kp K_MUTE           &trans  &kp C_BRIGHTNESS_AUTO  &trans          &trans          &trans           &trans  &trans
-&trans  &trans        &trans        &trans            &trans          &trans               &trans  &trans                 &trans          &trans          &trans           &trans
+&trans  &trans        &trans        &trans            &trans          &trans               &trans  &trans                 &trans    &trans        &trans           &trans    &trans
+&trans  &trans        &trans        &kp HOME          &kp PAGE_UP     &kp C_VOLUME_UP      &trans  &trans                 &trans    &trans        &trans           &trans    &trans
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN    &trans  &kp LEFT               &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW  &kp HOME  &trans
+&trans  &trans        &trans        &kp END           &kp PAGE_DOWN   &kp K_MUTE           &trans  &kp C_BRIGHTNESS_AUTO  &trans    &trans        &trans           &trans    &trans
+&trans  &trans        &trans        &trans            &trans          &trans               &trans  &trans                 &trans    &trans        &trans           &trans
             >;
 
             label = "Navi";
