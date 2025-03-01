@@ -161,11 +161,11 @@
 
         bluetooth {
             bindings = <
-&trans  &trans        &trans        &trans            &trans          &trans               &trans  &trans                 &trans    &trans        &trans           &trans    &trans
-&trans  &trans        &trans        &kp HOME          &kp PAGE_UP     &kp C_VOLUME_UP      &trans  &trans                 &trans    &trans        &trans           &trans    &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN    &trans  &kp LEFT               &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW  &kp HOME  &trans
-&trans  &trans        &trans        &kp END           &kp PAGE_DOWN   &kp K_MUTE           &trans  &kp C_BRIGHTNESS_AUTO  &trans    &trans        &trans           &trans    &trans
-&trans  &trans        &trans        &trans            &trans          &trans               &trans  &trans                 &trans    &trans        &trans           &trans
+&trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1      &bt BT_SEL 2    &bt BT_SEL 3         &trans  &trans                 &trans    &trans        &trans           &trans    &trans
+&trans  &trans           &trans          &kp HOME          &kp PAGE_UP     &kp C_VOLUME_UP      &trans  &trans                 &trans    &trans        &trans           &trans    &trans
+&trans  &kp LEFT_GUI     &kp LEFT_ALT    &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN    &trans  &kp LEFT               &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW  &kp HOME  &trans
+&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF   &trans          &trans               &trans  &kp C_BRIGHTNESS_AUTO  &trans    &trans        &trans           &trans    &trans
+&trans  &trans           &trans          &trans            &trans          &trans               &trans  &trans                 &trans    &trans        &trans           &trans
             >;
 
             label = "Navi";
@@ -173,11 +173,11 @@
 
         Symbol {
             bindings = <
-&trans  &trans           &trans        &trans    &trans      &trans            &trans  &trans     &trans           &trans                          &trans                &trans                 &trans
-&trans  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH  &kp DOLLAR  &kp PERCENT       &trans  &kp CARET  &kp AMPERSAND    &kp ASTERISK                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &kp ESCAPE       &kp CAPSLOCK  &kp HOME  &kp END     &kp UNDERSCORE    &trans  &kp MINUS  &kp RIGHT_SHIFT  &kp PAGE_UP                     &kp PAGE_DOWN         &kp INSERT             &trans
-&trans  &kp BACKSPACE    &trans        &trans    &trans      &kp TILDE         &trans  &kp GRAVE  &as PLUS EQUAL   &as DOUBLE_QUOTES SINGLE_QUOTE  &as PIPE BACKSLASH    &kp DELETE             &trans
-&trans  &trans           &trans        &trans    &trans      &trans            &trans  &trans     &trans           &trans                          &trans                &trans
+&trans  &trans           &trans       &trans    &trans          &trans             &trans  &trans            &trans             &trans                          &trans                &trans                 &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR      &kp PERCENT        &trans  &kp CARET         &kp AMPERSAND      &kp ASTERISK                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
+&trans  &kp EQUAL        &kp MINUS    &kp PLUS  &kp LEFT_BRACE  &kp RIGHT_BRACE    &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON                   &kp COLON             &kp NON_US_BACKSLASH   &kp TILDE
+&trans  &kp BACKSPACE    &trans       &trans    &trans          &kp TILDE          &trans  &kp GRAVE         &as PLUS EQUAL     &as DOUBLE_QUOTES SINGLE_QUOTE  &as PIPE BACKSLASH    &kp DELETE             &trans
+&trans  &trans           &trans       &trans    &trans          &trans             &trans  &trans            &trans             &trans                          &trans                &trans
             >;
 
             label = "Symbol";
